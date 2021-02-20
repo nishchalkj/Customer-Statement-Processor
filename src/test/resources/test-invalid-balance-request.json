@@ -1,0 +1,35 @@
+{
+	"customerStatement": [{
+			"transactionReference": "1286",
+			"accountNumber": "NL23ABNA0897000078",
+			"startBalance": "8500,00",
+			"mutation": "-100,00",
+			"description": "jan days",
+			"endBalance": "7500,00"
+		},
+		{
+			"transactionReference": "1456",
+			"accountNumber": "NL23ABNA0897000478",
+			"startBalance": "7500,00",
+			"mutation": "-2000,00",
+			"description": "jan days",
+			"endBalance": "5000,00"
+		},
+		{
+			"transactionReference": "1287",
+			"accountNumber": "NL23ABNA0897000778",
+			"startBalance": "7500,00",
+			"mutation": "1000,00",
+			"description": "jan days",
+			"endBalance": "8500,00"
+		},
+		{
+			"transactionReference": "1288",
+			"accountNumber": "NL23ABNA0897000778",
+			"startBalance": "7500,00",
+			"mutation": "-100",
+			"description": "jan days",
+			"endBalance": "400,00"
+		}
+	]
+}

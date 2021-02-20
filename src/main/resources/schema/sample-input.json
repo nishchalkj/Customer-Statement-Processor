@@ -1,0 +1,18 @@
+[
+  {
+    "transactionReference": "12861234578",
+    "accountNumber": "NL23BANK0897000078",
+    "startBalance": "8500.00",
+    "mutation": "-100.00",
+    "description": "Grocery",
+    "endBalance": "8400.00"
+  },
+  {
+    "transactionReference": "1456123456",
+    "accountNumber": "NL23BANK0897000478",
+    "startBalance": "7500.00",
+    "mutation": "-200.00",
+    "description": "Movie ticket",
+    "endBalance": "7300.00"
+  }
+]
