@@ -24,10 +24,9 @@ Please find the below table for JSON input and Validations for that.
 | 200               | When there are no duplicate reference and correct end balance     | `{"result" : "SUCCESSFUL", "errorRecords" : []}`|
 | 200               | When there are duplicate reference and correct balance            |[duplicateReferenceAndcorrectBalanceJson](./duplicateReferenceAndcorrectBalance)
 | 200               | When there are no duplicate reference and In correct balance      |[IncorrectBalance Json](./IncorrectBalance.json)|
-| 200               | When there are duplicate reference and In correct balance         |[duplicateReferenceAndIncorrectBalanceJson(./duplicateReferenceAndIncorrectBalance.json)
-                                                                                          
+| 200               | When there are duplicate reference and In correct balance         |[duplicateReferenceAndIncorrectBalanceJson]
 | 400               | Error during parsing JSON                                         | `{"result" : "BAD_REQUEST", "errorRecords" : []}`|
-| 500               | Any other situation                                               |`{"result" : "INTERNAL_SERVER_ERROR","errorRecords" : [] }`|
+| 500               | Any other situation                                               | `{"result" : "INTERNAL_SERVER_ERROR","errorRecords" : [] }`|
 
 # Prerequisites:
 a. Java 8
