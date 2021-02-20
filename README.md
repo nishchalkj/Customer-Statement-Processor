@@ -39,13 +39,13 @@ b.After successful build, execute <pre>mvn spring-boot:run</pre>
 c.Server Port Configured <pre>8082</pre>
 
 # Design Overview:
-1.Separation of concern has been used for designing the layered architecture.
-2.All the classes with similar concerns have been grouped same package forming an layered architecture.
-3.All the classes have single responsibility and all the classes which had multiple responsibility for been separated accordingly.
-4.Interface has been created and can be segregated in future to add more functionality through implementation classes.
-5.Inversion of control(DI) has been used so that all the layers are loosely coupled so that implementation classes can be easily changed in future if required & also easy to     write test cases.
-6.While implementing this functionality Test Driven Approach has been followed.
-7.Integration Test and Unit test has been implemented.
+1. Separation of concern has been used for designing the layered architecture.
+2. All the classes with similar concerns have been grouped same package forming an layered architecture.
+3. All the classes have single responsibility and all the classes which had multiple responsibility for been separated accordingly.
+4. Interface has been created and can be segregated in future to add more functionality through implementation classes.
+5. Inversion of control(DI) has been used so that all the layers are loosely coupled so that implementation classes can be easily changed in future if required & also easy  to write test cases.
+6. While implementing this functionality Test Driven Approach has been followed.
+7. Integration Test and Unit test has been implemented.
 
 # Implementation Overview:
 This application exposes below end point url
