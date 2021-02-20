@@ -1,12 +1,12 @@
 # Customer Statement Processor
 Customer statement processor project
 
-#Introduction
+## Introduction
 
-This application receives monthly delivery of customer statement records in JSON format as a POST data and returns response based on various Validations.
+This application receives monthly delivery of customer statement records in JSON format as a POST data and returns response based on various validations.
 Please find the below table for JSON input and Validations for that.
 
-#JSON input fields
+#JSON input fields:
 
 | Field                  | Description                                      | 
 |------------------------|------------------------------------------------- |
@@ -17,7 +17,7 @@ Please find the below table for JSON input and Validations for that.
 | Description            | Free text                                        |
 | End Balance            | The end balance in Euros                         |
 
-# Expected Output
+# Expected Output:
 
 | Http Status Code  | Condition                                                         |  Response format |
 |---                |---                                                                |---               |
@@ -29,16 +29,16 @@ Please find the below table for JSON input and Validations for that.
 | 400               | Error during parsing JSON                                         | `{"result" : "BAD_REQUEST", "errorRecords" : []}`|
 | 500               | Any other situation                                               |`{"result" : "INTERNAL_SERVER_ERROR","errorRecords" : [] }`|
 
-#Prerequisites
+# Prerequisites:
 a.Java 8
 b.Maven
 
-#Running the project
+# Running the project:
 a.In root folder, do:<pre>mvn clean install</pre>
 b.After successful build, execute <pre>mvn spring-boot:run</pre>
 c.Server Port Configured <pre>8082</pre>
 
-#Design Overview
+# Design Overview:
 1.Separation of concern has been used for designing the layered architecture.
 2.All the classes with similar concerns have been grouped same package forming an layered architecture.
 3.All the classes have single responsibility and all the classes which had multiple responsibility for been separated accordingly.
@@ -47,7 +47,7 @@ c.Server Port Configured <pre>8082</pre>
 6.While implementing this functionality Test Driven Approach has been followed.
 7.Integration Test and Unit test has been implemented.
 
-#Implementation Overview
+# Implementation Overview:
 This application exposes below end point url
 
     POST:/customerStatementProcessor	
